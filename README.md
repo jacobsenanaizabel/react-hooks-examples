@@ -1,4 +1,4 @@
-# react-hooks
+# React hooks :tada:
 
 Hooks permitem que você utilize states e outros métodos de states sem precisar criar uma classe,
 utilizando diretamente funções da biblioteca do react. 
