@@ -32,3 +32,9 @@ https://www.youtube.com/watch?v=dpw9EHDh2bM
 
 Fontes:
 https://github.com/rehooks/awesome-react-hookshttps://github.com/rehooks/awesome-react-hooks
+
+Artigos:
+https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889
+https://usehooks.com/
+https://github.com/the-road-to-learn-react/react-hooks-introduction
+https://willianjusten.com.br/habemus-react-hooks/

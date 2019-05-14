@@ -40,12 +40,16 @@ export class GreetingClass extends React.Component {
   }
 }
 
+//function components em vez de stateless components
 export function Greeting() {
+  //Destructing es6
   const [name, setName] = useState('Albus Dumbledore');
   const [age, setAge] = useState(175);
+
   function handleNameChange(e) {
     setName(e.target.value);
   }
+
   function handleAgeChange(e) {
     setAge(e.target.value);
   }

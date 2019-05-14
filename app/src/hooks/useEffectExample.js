@@ -68,15 +68,18 @@ export class TitleClass extends React.Component {
 export function Title() {
   const [name, setName] = useState('Albus Dumbledore');
   const [age, setAge] = useState(175);
+  
   useEffect(() => {
-    document.title = `${name} | ${age}`;
+    document.title = `${name} | ${age}`; //componentDidUpdate
   });
+
   const [height, setHeight] = useState(window.innerHeight);
+
   useEffect(() => {
     const handleResize = () => setHeight(window.innerHeight);
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize); //componentDidMount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('resize', handleResize); //componentWillUnmount
     };
   });
   function handleNameChange(e) {
