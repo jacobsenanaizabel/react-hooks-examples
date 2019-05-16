@@ -4,6 +4,10 @@ Hooks permitem que você utilize states e outros métodos de states sem precisar
 utilizando diretamente funções da biblioteca do react. 
 Você também pode criar seus próprios Hooks e compartilhar a lógica entre mais componentes.
 
+Apresentação no coders on beers:
+https://docs.google.com/presentation/d/1Cl_Bkz9HjUYf5aPDQShxkbp24Is2Hvlzd1jf9hZXo-o/edit?usp=sharing
+
+
 Sua versão estavel veio com o react 16.8.0, lançada em fevereiro.
 
 porque usar hooks:
